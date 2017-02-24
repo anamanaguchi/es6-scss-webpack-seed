@@ -1,0 +1,1 @@
+export const testVar = 'hello from test.js';
