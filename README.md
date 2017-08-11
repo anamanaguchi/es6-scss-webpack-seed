@@ -7,6 +7,13 @@ npm install
 npm start
 ```
 
+## HTML partials including:
+```html
+<header>
+    <%= require('html-loader!./partial/header.html') %>
+</header>
+```
+
 ## Browser access:
 ```
 http://localhost:4200/
