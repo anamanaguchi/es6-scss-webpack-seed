@@ -7,13 +7,13 @@
 </head>
 
 <body>
-    <%= require('html-loader!./partial/header.html') %>
+    <%= require('html-loader?interpolate!./partial/header.html') %>
         <div id="app">
             <div class="title">
                 <h1>About page!</h1>
             </div>
         </div>
-        <%= require('html-loader!./partial/footer.html') %>
+        <%= require('html-loader?interpolate!./partial/footer.html') %>
 </body>
 
 </html>

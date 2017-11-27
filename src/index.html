@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ES6 webpack seed</title>
+    <title># ${__('lang')} ES6 webpack seed</title>
 </head>
 
 <body>
 <div class="app">
-    <%= require('html-loader!./partial/header.html') %>
+    <%= require('html-loader?interpolate!./partial/header.html') %>
 
     <div class="container">
         <h1>WebPack is Awesome</h1>
@@ -17,16 +17,16 @@
             <li>ES6 support</li>
             <li>Webpack html templating support</li>
             <li>Assets support</li>
+            <li>i18n support</li>
         </ul>
-    </div>
-    <div class="container">
         <h2>Assets support example</h2>
-
         <img src="assets/placeholder.gif" alt="asset" class="sample-img"/>
-
+        <h2>Internalization support!</h2>
+        <a href="index-pl.html">Polish lang: Check this out!</a>
+        <a href="index.html">English lang: Check this out!</a>
     </div>
 
-    <%= require('html-loader!./partial/footer.html') %>
+    <%= require('html-loader?interpolate!./partial/footer.html') %>
 </div>
 </body>
 
