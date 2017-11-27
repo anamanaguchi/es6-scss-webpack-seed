@@ -18,3 +18,4 @@ node_modules/*
 
 es6-scss-webpack-seed.iml
 dist/*
+package-lock.json
