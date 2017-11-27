@@ -14,6 +14,11 @@ npm start
 </header>
 ```
 
+## Assets support
+```html
+<img src="assets/placeholder.gif" alt="asset" class="sample-img"/>
+
+```
 ## Browser access:
 ```
 http://localhost:4200/
