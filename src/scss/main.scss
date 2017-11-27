@@ -5,3 +5,20 @@ body{
   line-height: 30px;
   font-size: 20px;
 }
+
+.app{
+  width: 70vw;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.container{
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.sample-img{
+  width: 200px;
+}

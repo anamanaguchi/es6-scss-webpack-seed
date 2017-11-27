@@ -7,18 +7,27 @@
 </head>
 
 <body>
+<div class="app">
     <%= require('html-loader!./partial/header.html') %>
-        <div id="app">
-            <div class="title">
-                <h1>WebPack is Awesome</h1>
-                <ul>
-                    <li>SCSS support</li>
-                    <li>ES6 support</li>
-                    <li>Webpack html templating support</li>
-                </ul>
-            </div>
-        </div>
-        <%= require('html-loader!./partial/footer.html') %>
+
+    <div class="container">
+        <h1>WebPack is Awesome</h1>
+        <ul>
+            <li>SCSS support</li>
+            <li>ES6 support</li>
+            <li>Webpack html templating support</li>
+            <li>Assets support</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Assets support example</h2>
+
+        <img src="assets/placeholder.gif" alt="asset" class="sample-img"/>
+
+    </div>
+
+    <%= require('html-loader!./partial/footer.html') %>
+</div>
 </body>
 
 </html>
