@@ -1,5 +1,3 @@
 import {testVar} from './test';
-
 require('../scss/main.scss');
-
-console.log(testVar);
+require('../i18n/pl.js')
